@@ -11,7 +11,7 @@ from PIL import Image
 parser = argparse.ArgumentParser(description='Convert to jpg.')
 parser.add_argument("-p","--path2imgs", help="Video location", default='/Users/felipeparodi/Desktop/MonkeyImgs/')
 args = parser.parse_args()
-fold = glob.gob(args.path2imgs)
+input_dir = glob.gob(args.path2imgs)
 
 # input_dir = '/Users/felipeparodi/Desktop/MonkeyImgs/'
 # cast to list to avoid error:
